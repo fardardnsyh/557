@@ -1,0 +1,18 @@
+.uploadError {
+  display: flex;
+  justify-content: center;
+}
+
+.message {
+  background-color: #ff0033;
+  border: 2px solid black;
+  color: white;
+  width: 400px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 600;
+}

@@ -1,0 +1,50 @@
+.Form {
+  display: flex;
+  justify-content: center;
+}
+
+.addForm {
+  /* background-color: #010101; */
+  /* opacity: 95%; */
+  border-radius: 10px;
+  display: grid;
+  justify-content: center;
+  gap: 5px;
+}
+
+.postText {
+  grid-column-start: span 2;
+}
+
+label {
+  margin-right: 10px;
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+}
+
+/* Post  fields stylization */
+
+.postName,
+.postTitle {
+  font-size: 1.2em;
+  padding: 8px;
+  height: 0.5em;
+  border-radius: 8px;
+}
+
+.postText {
+  resize: none;
+  padding: 8px;
+  font-size: 1.2em;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.postFile {
+  padding: 5px;
+  font-size: 1.2em;
+  color: white;
+}

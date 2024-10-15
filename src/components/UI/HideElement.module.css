@@ -1,0 +1,19 @@
+.hideContainer {
+  display: inline-flex;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  cursor: pointer;
+  align-self: flex-start;
+  align-items: center;
+  justify-items: center;
+}
+
+.icon{
+  margin-right: 5px;
+}
+
+.text {
+  color: #00ff46;
+  align-self: center;
+  font-size: 1rem;
+}

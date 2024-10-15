@@ -1,0 +1,58 @@
+.Thread {
+  padding: 10px;
+  margin: 20px;
+  width: 80vw;
+}
+
+@media (max-width: 1200px) {
+  .Thread {
+    width: 85vw;
+  }
+}
+@media (max-width: 800px) {
+  .Thread {
+    width: 95vw;
+  }
+}
+
+.Thread:last-child {
+  border-bottom: none;
+}
+
+.threadContainer {
+  font-size: 1.05em;
+  padding: 10px;
+
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-gap: 10px;
+
+  color: white;
+  background-color: grey;
+  box-shadow: 0 2px 14px #010101;
+  border-radius: 8px;
+  opacity: 0.9;
+
+  text-align: left;
+  /* overflow: auto; */
+}
+
+.image {
+  float: left;
+  margin-right: 10px;
+}
+
+.threadInfo {
+  /* display: inline-flex; */
+  gap: 10px;
+}
+
+.threadInfoContainer {
+  display: inline-flex;
+  gap: 10px;
+  /* padding-bottom: 10px; */
+}
+
+#user {
+  color: #00ff46;
+}
